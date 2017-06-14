@@ -1,4 +1,4 @@
-FROM fluent/fluentd:v0.14-onbuild
+FROM fluent/fluentd:v0.14
 MAINTAINER WOHLER Paraita <paraita.wohler@activeeon.com>
 
 RUN apk add --update --virtual .build-deps \
